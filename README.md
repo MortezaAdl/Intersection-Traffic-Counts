@@ -6,7 +6,7 @@ Implementation of paper - [Fisheye Vision: A Novel AI-Powered Vehicle Movement C
 # Installation
 pip install -r requirements.txt
 
-Download the preferred [YOLOv7 weights](https://github.com/WongKinYiu/yolov7).
+Download the preferred [YOLOv7 ](https://github.com/WongKinYiu/yolov7) weights.
 
 [`yolov7.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) [`yolov7x.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7x.pt) [`yolov7-w6.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-w6.pt) [`yolov7-e6.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6.pt) [`yolov7-d6.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-d6.pt) [`yolov7-e6e.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e.pt)
 
