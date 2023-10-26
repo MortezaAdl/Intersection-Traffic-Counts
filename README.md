@@ -21,11 +21,11 @@ Download the preferred [YOLOv7 ](https://github.com/WongKinYiu/yolov7) weights t
 ## Training
 On video:
 ``` shell
-python DTC.py --weights yolov7-e6e.pt --conf 0.25 --img-size 640 --source inference/yourvideo.mp4 --LearnPatterns --TracksPerLane 50
+python DTC.py --weights yolov7-e6e.pt --conf 0.25 --img-size 1280 --source inference/yourvideo.mp4 --LearnPatterns --TracksPerLane 50
 ```
 On image:
 ``` shell
-python DTC.py --weights yolov7-e6e.pt --conf 0.25 --img-size 640 --source inference/images_folder --LearnPatterns --TracksPerLane 50
+python DTC.py --weights yolov7-e6e.pt --conf 0.25 --img-size 1280 --source inference/images_folder --LearnPatterns --TracksPerLane 50
 ```
 
 ## Inference
