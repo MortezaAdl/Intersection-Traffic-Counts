@@ -14,9 +14,9 @@ Download the preferred [YOLOv7 ](https://github.com/WongKinYiu/yolov7) weights t
 [`yolov7.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) [`yolov7x.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7x.pt) [`yolov7-w6.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-w6.pt) [`yolov7-e6.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6.pt) [`yolov7-d6.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-d6.pt) [`yolov7-e6e.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e.pt)
 
 # Configuration
-1. Run config.py and select one of the images from your dataset to generate a cfg.txt file and define zones for the intersection.
+1. Run config.py and select one of the images from your dataset to generate a cfg.txt file and define zones for the intersection. The sample configuration filez is available in the 'Counter/cfg' directory for the images in the 'inference/images' folder.
 
-2. Open Counter/cfg/cfg.txt and define the number of lanes for each street.
+2. Open 'Counter/cfg/cfg.txt' and define the number of lanes for each street.
 
 ## Training
 On video:
