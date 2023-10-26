@@ -1,0 +1,37 @@
+# Configuration parameters for data analytics algorithm
+
+# Image Data
+ImageHeight = 1024
+ImageWidth = 1024
+FisheyeImageCenterX = 519
+FisheyeImageCenterY = 506
+
+# Defisheye function parameters
+ImageRadius = 490
+Rec_Calibration = 20
+Filter = 0.9897959183673469
+
+# Zones, intersection, and box coordinates
+
+Intersection = 175 344 322 712 875 384 439 117 
+
+Zone1Coordinates = 322 712 175 344 71 321 60 353 49 388 41 428 36 472 35 519 39 569 49 622 65 674 86 723 112 769 141 809 172 843 202 872 233 897 260 915 287 931 
+Zone1Status = Active 
+Zone1_Arriving_St_Lane_num = 2
+Zone1_Leaving_St_Lane_num = 2
+
+Zone2Coordinates = 875 384 322 712 287 931 303 940 322 949 345 958 372 967 405 977 445 985 494 990 551 989 619 980 694 958 770 920 840 868 898 807 941 744 970 683 988 629 997 583 1002 543 1003 510 1003 484 1001 460 999 440 996 422 
+Zone2Status = Active 
+Zone2_Arriving_St_Lane_num = 2
+Zone2_Leaving_St_Lane_num = 2
+
+Zone3Coordinates = 439 117 875 384 996 422 991 395 983 366 971 332 956 297 936 260 910 221 879 182 842 145 800 111 754 82 706 59 658 42 611 30 568 24 528 22 493 22 460 25 431 30 
+Zone3Status = Active 
+Zone3_Arriving_St_Lane_num = 2
+Zone3_Leaving_St_Lane_num = 2
+
+Zone4Coordinates = 175 344 439 117 431 30 398 37 363 48 326 62 289 80 253 102 217 127 184 156 154 188 127 221 105 255 86 288 72 321 
+Zone4Status = Active 
+Zone4_Arriving_St_Lane_num = 2
+Zone4_Leaving_St_Lane_num = 2
+
