@@ -1,5 +1,5 @@
 # Path-specific vehicle movement counting at intersections
-A Vehicle Movement Counting System for Intersections Monitored by A Fisheye Camera
+A Vehicle Movement Counting System for Intersections Monitored by an Overhead Fisheye Camera
 
 Implementation of paper - [Enhanced Vehicle Movement Counting at Intersections via a Self-Learning Fisheye Camera System] ['Link'](https://ieeexplore.ieee.org/abstract/document/10542980)
 
