@@ -25,7 +25,7 @@ Download the preferred [YOLOv7 ](https://github.com/WongKinYiu/yolov7) weights t
 2. Open 'Counter/cfg/cfg.txt' and define the number of lanes for each street.
 
 # Training
-The algorithm can operate without prior training, but for improved accuracy in counting broken tracks, it is recommended to run it in training mode initially. This allows the system to extract traffic patterns at the intersection, enabling more accurate detection of broken tracks and enhancing overall counting precision.
+The algorithm can operate without prior training, but for improved accuracy in counting broken tracks, it is recommended to initially run it in training mode. This allows the system to extract traffic patterns (Black paths in the video) at the intersection, enabling more accurate detection of broken tracks and enhancing overall counting precision.
 
 On video:
 ``` shell
