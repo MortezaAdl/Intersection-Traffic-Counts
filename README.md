@@ -1,7 +1,7 @@
 # Path-specific vehicle movement counting at intersections
 A Vehicle Movement Counting System for Intersections Monitored by an Overhead Fisheye Camera
 
-Implementation of paper - [Enhanced Vehicle Movement Counting at Intersections via a Self-Learning Fisheye Camera System] ['Link'](https://ieeexplore.ieee.org/abstract/document/10542980)
+Implementation of paper - [Enhanced Vehicle Movement Counting at Intersections via a Self-Learning Fisheye Camera System] [Link](https://ieeexplore.ieee.org/abstract/document/10542980)
 
 
 # Installation
@@ -15,11 +15,13 @@ Download the preferred [YOLOv7 ](https://github.com/WongKinYiu/yolov7) weights t
 [`yolov7.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7.pt) [`yolov7x.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7x.pt) [`yolov7-w6.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-w6.pt) [`yolov7-e6.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6.pt) [`yolov7-d6.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-d6.pt) [`yolov7-e6e.pt`](https://github.com/WongKinYiu/yolov7/releases/download/v0.1/yolov7-e6e.pt)
 
 # Configuration
-1. Run config.py and select one of the images from your dataset to generate a cfg.txt file and define zones for the intersection. The sample configuration files are available in the 'Counter/cfg' directory for the images in the 'inference/images' folder.
+1. Run config.py and select one of the images from your overhead fisheye dataset to generate a cfg.txt file and define zones for the intersection. The sample configuration files are provided in the 'Counter/cfg' directory for the images in the 'inference/images' folder in this directory.
 
 2. Open 'Counter/cfg/cfg.txt' and define the number of lanes for each street.
 
 # Training
+The algorithm can operate without prior training, but for improved accuracy in counting broken tracks, it is recommended to run it in training mode initially. This allows the system to extract traffic patterns at the intersection, enabling more accurate detection of broken tracks and enhancing overall counting precision.
+
 On video:
 ``` shell
 python DTC.py --weights yolov7-e6e.pt --conf 0.25 --img-size 1280 --source inference/yourvideo.mp4 --LearnPatterns --TracksPerLane 50
